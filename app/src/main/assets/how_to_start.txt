@@ -1,0 +1,17 @@
+Для начала разработки мода необходимо создать файл с расширением .js (например название.js). Именно в этом файле должен быть записан код мода. И этот же файл необходимо будет установить в разделе ModPE Script в BlockLauncher. Создание файла в ES Проводнике:
+<~image>hts_1.png</image>
+<~image>hts_2.png</image>
+<~image>hts_3.png</image>
+<~image>hts_4.png</image>
+<~image>hts_5.png</image>
+<~image>hts_6.png</image>
+После создания файла откройте его:
+<~image>hts_7.png</image>
+<~image>hts_8.png</image>
+<~image>hts_9.png</image>
+Данный файл также можно открыть в ANIDE:
+<~image>hts_10.png</image>
+Нажмите на иконку открытия файла в верхнем меню и затем найдите ваш файл.
+<~image>hts_11.png</image>
+Выберите его 
+<~image>hts_12.png</image>

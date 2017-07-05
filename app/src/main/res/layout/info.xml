@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		style="@style/panel">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			style="@style/panel_text"
+			android:layout_margin="10dp"
+			android:text="О программе"
+			android:id="@+id/question"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/lesson_scroll">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_margin="5dp">
+
+				<ImageView
+					android:layout_height="200dp"
+					android:layout_width="200dp"
+					android:src="@drawable/ic_launcher"
+					android:layout_gravity="center"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="N ModPE Book"
+					android:layout_margin="5dp"
+					android:textSize="20sp"
+					android:textColor="@color/accent"
+					android:gravity="center"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="v1.0.0"
+					android:layout_margin="5dp"
+					android:textColor="@color/primary"
+					android:textStyle="bold"
+					android:gravity="center"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="Developed by"
+					android:layout_margin="10dp"
+					android:textSize="15sp"
+					android:textColor="#000000"
+					android:gravity="center"/>
+
+				<ImageView
+					android:layout_height="200dp"
+					android:layout_width="200dp"
+					android:src="@drawable/mine_programming"
+					android:layout_gravity="center"/>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="Разработчик: Максим Рукша"
+					android:layout_gravity="center"
+					android:layout_margin="10dp"
+					android:padding="10dp"
+					style="@style/button"/>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="Разработчик: Игорь Мелихов"
+					android:layout_margin="10dp"
+					android:padding="10dp"
+					style="@style/button"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:layout_margin="10dp"
+					style="@style/button">
+
+					<ImageView
+						android:layout_height="100dp"
+						android:layout_width="100dp"
+						android:src="@drawable/anide"
+						android:layout_margin="10dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Скачать ANIDE"
+						android:layout_margin="10dp"
+						android:textColor="#000000"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

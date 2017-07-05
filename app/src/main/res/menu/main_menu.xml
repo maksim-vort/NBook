@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+        android:id="@+id/test"
+        android:title="Тесты"
+		android:showAsAction="ifRoom"
+		android:icon="@drawable/test"/>
+    
+    <item
+        android:id="@+id/info"
+        android:title="О программе"
+		android:showAsAction="ifRoom"
+		android:icon="@drawable/info"/>
+	
+</menu>

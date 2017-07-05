@@ -1,0 +1,14 @@
+Тут текстик
+<~code>Parser test code</code>
+Тут тоже текстик
+<~code>function newLevel()
+{
+clientMessage("Hello Minecraft World!");
+}</code>
+А ВОТ ЭТО — картинки
+<~image>ic_launcher.png</image>
+1
+<~image>ic_launcher.png</image>
+2
+<~image>test.png</image>
+3
